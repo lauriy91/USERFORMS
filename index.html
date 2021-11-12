@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Usamos la etiqueta form para indicarle a nuestro código la construcción de un formulario -->
+    <form class="form">
+        <h2 class="form_title">Inicia Sesión</h2>
+        <p class="form_parragraph">¿Aun no tienes cuenta? <a href="#" class="form_link">Entra aquí</a></p>
+
+        <div class="form_container">
+            <div class="form_group">
+                <input type="text" id="name" class="form_input" placeholder=" ">
+                <label for="name" class="form_label"> Nombre: </label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="text" id="user" class="form_input" placeholder=" ">
+                <label for="user" class="form_label"> Usuario: </label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="password" id="password" class="form_input" placeholder=" ">
+                <label for="password" class="form_label"> Contraseña: </label>
+                <span class="form_line"></span>
+            </div>
+
+            <input type="submit" class="form_submit" value="Entrar">
+            <label class="forgot_password"> <a href="#" class="form_link">Olvidé Contraseña</a></label>
+        </div>
+    </form>
+    
+</body>
+</html>
